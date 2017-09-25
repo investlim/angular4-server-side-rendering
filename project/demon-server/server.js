@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 
 });
 
-var port = '8090';
+var port = '80';
 app.listen(port, function() {
   console.log("Listening on " + port);
 });
